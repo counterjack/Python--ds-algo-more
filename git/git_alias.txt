@@ -1,0 +1,17 @@
+user.email=="email"
+user.name="Name"
+merge.tool=vimdiff
+commit.template=/home/rameez/.gitmessage
+core.editor=vim
+push.default=matching
+alias.co=checkout
+alias.s=status
+alias.br=branch
+alias.last=log -1 HEAD
+alias.graph=log --oneline --decorate --graph --all
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/counterjack/Python--ds-algo-more.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
