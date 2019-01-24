@@ -1,24 +1,24 @@
 # setting up Email and Name for Repo
-user.email=="email"
-user.name="Name"
+git config user.email "email_id"
+git config  user.name "Name"
 # Defining Merge tool
-merge.tool=vimdiff
-commit.template=/path/.gitmessage
-core.editor=vim
-push.default=matching
+git config  --global merge.tool vimdiff
+git config  commit.template=/path/.gitmessage
+git config  --global  core.editor vim
+git config  --global  push.default matching
 
 # Setting Up Aliases
-alias.co checkout
-alias.s status
-alias.br branch
-alias.last 'log -1 HEAD'
-alias.graph 'log --oneline --decorate --graph --all'
-alias.ci commit 
+git config  --global  alias.co checkout
+git config  --global  alias.s status
+git config  --global  alias.br branch
+git config  --global  alias.last 'log -1 HEAD'
+git config  --global  alias.graph 'log --oneline --decorate --graph --all'
+git config  --global  alias.ci commit 
 
-core.repositoryformatversion=0
-core.filemode=true
-core.bare=false
-core.logallrefupdates=true
+git config  --global  core.repositoryformatversion 0
+git config  --global  core.filemode true
+git config  --global  core.bare false
+git config  --global  core.logallrefupdates true
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 
 # cache credentials 
