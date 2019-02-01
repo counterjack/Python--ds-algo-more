@@ -6,6 +6,7 @@ git config  --global merge.tool vimdiff
 git config  commit.template=/path/.gitmessage
 git config  --global  core.editor vim
 git config  --global  push.default matching
+git config --global   push.default current # set push on current active branch
 
 # Setting Up Aliases
 git config  --global  alias.co checkout
